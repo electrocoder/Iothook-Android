@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Giriş" />
+        <item
+            android:id="@+id/nav_add_channel"
+            android:icon="@drawable/ic_add_channel"
+            android:title="Kanal Ekle" />
+        <item
+            android:id="@+id/nav_add_element"
+            android:icon="@drawable/ic_add_element"
+            android:title="Element Ekle" />
+    </group>
+
+    <item>
+        <menu>
+            <item
+                android:id="@+id/nav_public_channels"
+                android:icon="@drawable/ic_public_channels"
+                android:title="Genel Kanallar" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Paylaş" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="İletişim" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Yardım" />
+        </menu>
+    </item>
+
+</menu>
