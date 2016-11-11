@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iothook.ele.iothook.AddChannelFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="51dp"
+                android:id="@+id/editText"
+                android:textColor="#00FFBF"
+                android:hint="Kanal adı"
+                android:textColorHint="#A9F5D0"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="47dp"
+                android:id="@+id/method"
+                android:textSize="20sp"
+                android:layout_below="@+id/device"
+                android:layout_alignRight="@+id/device"
+                android:layout_alignEnd="@+id/device"
+                android:layout_alignLeft="@+id/device"
+                android:layout_alignStart="@+id/device"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp"
+                android:id="@+id/enctype"
+                android:textSize="20sp"
+                android:layout_below="@+id/editText"
+                android:layout_alignLeft="@+id/editText"
+                android:layout_alignStart="@+id/editText"
+                android:layout_alignRight="@+id/editText"
+                android:layout_alignEnd="@+id/editText"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="43dp"
+                android:id="@+id/device"
+                android:textSize="20sp"
+                android:layout_below="@+id/enctype"
+                android:layout_alignRight="@+id/enctype"
+                android:layout_alignEnd="@+id/enctype"
+                android:layout_alignLeft="@+id/enctype"
+                android:layout_alignStart="@+id/enctype"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="51dp"
+                android:id="@+id/editText1"
+                android:textColor="#00FFBF"
+                android:hint="Etiketler,"
+                android:textColorHint="#A9F5D0"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="51dp"
+                android:id="@+id/editText2"
+                android:textColor="#00FFBF"
+                android:hint="Web site adresi"
+                android:textColorHint="#A9F5D0"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp" />
+
+            <CheckBox
+                android:text="E-mail gönder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00FFBF"
+                android:id="@+id/checkBox" />
+
+            <CheckBox
+                android:text="Verileri kaydet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00FFBF"
+                android:id="@+id/checkBox2" />
+
+            <EditText
+                android:hint="Açıklama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:textColor="#00FFBF"
+                android:id="@+id/editText4" />
+
+            <CheckBox
+                android:text="Genel POST"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00FFBF"
+                android:id="@+id/checkBox3" />
+
+            <CheckBox
+                android:text="Genel GET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00FFBF"
+                android:id="@+id/checkBox4" />
+
+            <CheckBox
+                android:text="Aktif et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00FFBF"
+                android:id="@+id/checkBox5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="45dp" />
+
+            <Button
+                android:text="Kaydet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:textSize="20sp"
+                android:shadowColor="#A8A8A8"
+                android:textColor="#00FFBF"
+                android:background="@drawable/custom_button"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="17dp"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

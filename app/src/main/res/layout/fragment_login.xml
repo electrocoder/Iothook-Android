@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iothook.ele.iothook.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:id="@+id/editText2"
+        android:textColor="#00FFBF"
+        android:hint="E-mail"
+        android:textColorHint="#A9F5D0" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="61dp"
+        android:id="@+id/editText3"
+        android:textColor="#00FFBF"
+        android:hint="Şifre"
+        android:textColorHint="#A9F5D0" />
+
+    <Button
+        android:text="Giriş"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:id="@+id/button"
+        android:textSize="20sp"
+        android:shadowColor="#A8A8A8"
+        android:textColor="#00FFBF"
+        android:background="@drawable/custom_button" />
+
+    <TextView
+        android:text="Henüz üye değilim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:id="@+id/textView3"
+        tools:textSize="24sp"
+        android:textColorHint="#A9F5D0"
+        android:textColor="#A9F5D0" />
+</RelativeLayout>

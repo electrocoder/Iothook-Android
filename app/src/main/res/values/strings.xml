@@ -5,4 +5,52 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="method_array">
+        <item>Post</item>
+        <item>Get</item>
+        <item>Post/Get</item>
+    </string-array>
+
+    <string-array name="enctype_array">
+        <item>application/x-www-form-urlencoded</item>
+    </string-array>
+
+    <string-array name="device_array">
+        <item>Other</item>
+        <item>Arduino</item>
+        <item>Raspberry Pi</item>
+        <item>Android</item>
+        <item>iOS</item>
+        <item>Windows Phone</item>
+        <item>Netduino</item>
+        <item>Intel Edison</item>
+        <item>Galileo</item>
+        <item>BeagleBoard</item>
+        <item>UDOO</item>
+        <item>CubieBoard</item>
+        <item>Pic</item>
+        <item>Linux</item>
+        <item>Windows</item>
+        <item>Mac OS X</item>
+    </string-array>
+
+    <string-array name="graphic_array">
+        <item>Line</item>
+        <item>Bar</item>
+        <item>Radar</item>
+        <item>Donut</item>
+        <item>Pie Chart</item>
+        <item>Pie Area</item>
+        <item>World Map</item>
+    </string-array>
+
+    <string-array name="element_type_array">
+        <item>text</item>
+        <item>number</item>
+    </string-array>
+
 </resources>

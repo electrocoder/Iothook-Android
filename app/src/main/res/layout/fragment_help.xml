@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iothook.ele.iothook.HelpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Iot Nedir?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:id="@+id/textView5"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textColor="#2EFE9A" />
+
+            <TextView
+                android:text="Kevin Ashton tarafından 1999 yılında ortaya atılan IOT kavramı ilk başlarda RFID etiketleri için geliştirilmeye başlandı ve bugün kullanmış olduğumuz Akıllı Ev Elektrik Sistemleri, Işık Anahtarı, Akıllı Ev Priz Üstü, RGBW Led Ampül, Akıllı Su Baskın Sensörü, Akıllı Priz, İklimlendirme Sistemleri, Kombi Kontrol, Petek Vanası, Akıllı Kapı Kilidi, Doğalgaz Sensörü, Su Baskın Sensörü gibi bir çok cihazın içine girmeyi başardı.  IotHook ile Iot kavramı içerisindeki tüm cihazlar ile iletişim kuran web servis, data merkezi ve web site çengel sistemlerini geliştirdik ve halen geliştirmeye devam ediyoruz.   Arduino web servis  Raspberry Pi web servis  Android web servis  iOS web servis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:id="@+id/textView2"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#A9F5D0"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="Iot Hook Nedir?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:id="@+id/textView51"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textColor="#2EFE9A" />
+
+            <TextView
+                android:text="Internete bağlı olarak çalışan Arduino, Raspberry Pi, Android, iOS, Windows Phone, Web Site, Banana Pi, Orange Pi, Beaglebone, ARM, Pic, Windows, Mac OS X, Linux ve diğer şeyleri IotHook ile birbirine bağlar."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:id="@+id/textView21"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#A9F5D0"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="Geliştiriciler İçin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:id="@+id/textView52"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textColor="#2EFE9A" />
+
+            <TextView
+                android:text="Iot cihaz kodunuzu geliştirmeye odaklanın, IotHook sizin için veri toplamaya başlasın. Kanal oluşturduktan sonra Özel Api Key veya Genel Api Key üreterek IOT cihazınızdan veri almaya başlayın. Gelen veri tipine özel seçeceğiniz grafik nesnesi ile verileri izleyebilirsiniz.  Gelen veriler için sms, email bildirimi alabilirsiniz."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:id="@+id/textView22"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#A9F5D0"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

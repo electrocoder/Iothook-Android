@@ -30,6 +30,6 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@drawable/ic_menu_add_channel"
-        app:backgroundTint="@android:color/holo_red_dark" />
+        app:backgroundTint="#00FFBF" />
 
 </android.support.design.widget.CoordinatorLayout>

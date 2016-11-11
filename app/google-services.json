@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "535757814053",
+    "firebase_url": "https://iothook-ba6b8.firebaseio.com",
+    "project_id": "iothook-ba6b8",
+    "storage_bucket": "iothook-ba6b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535757814053:android:9190f46b29169b67",
+        "android_client_info": {
+          "package_name": "com.iothook.ele.iothook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535757814053-btpv7uo1u2bmcahkiic0mlrfc4g7jeqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iothook.ele.iothook",
+            "certificate_hash": "5FDB8E96529001234FB5C318E04F92093EAC026A"
+          }
+        },
+        {
+          "client_id": "535757814053-m8j0ofpsud07h2co422c6ldtnskkjua6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjejYb-hdSVmPW0jS3X_2voC9Vo7Yhw-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535757814053-m8j0ofpsud07h2co422c6ldtnskkjua6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

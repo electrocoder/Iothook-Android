@@ -1,8 +1,10 @@
 package com.iothook.ele.iothook;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Kanal ekle", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -81,18 +83,36 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_login) {
-            // Handle the camera action
+            LoginFragment loginFragment = new LoginFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.content_main, loginFragment, loginFragment.getTag()).commit();
         } else if (id == R.id.nav_add_channel) {
-
+            AddChannelFragment addChannelFragment = new AddChannelFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.content_main, addChannelFragment, addChannelFragment.getTag()).commit();
         } else if (id == R.id.nav_add_element) {
-
+            AddElementFragment addElementFragment = new AddElementFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.content_main, addElementFragment, addElementFragment.getTag()).commit();
         } else if (id == R.id.nav_public_channels) {
-
+            PublicChannelsFragment publicchannelsFragment = new PublicChannelsFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.content_main, publicchannelsFragment, publicchannelsFragment.getTag()).commit();
         } else if (id == R.id.nav_share) {
-
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String shareBody = "Internet of things hook project http://iothook.com";
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
         } else if (id == R.id.nav_contact) {
-
+            ContactFragment contactFragment = new ContactFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.content_main, contactFragment, contactFragment.getTag()).commit();
         } else if (id == R.id.nav_help) {
+            HelpFragment helpFragment = new HelpFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.content_main, helpFragment, helpFragment.getTag()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
