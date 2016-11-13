@@ -58,16 +58,20 @@
         android:layout_marginTop="49dp"
         android:id="@+id/editText10"
         android:hint="Konu"
-        android:textColorHint="#A9F5D0" />
+        android:textColorHint="#A9F5D0"
+        android:layout_above="@+id/button2" />
 
     <Button
         android:text="Gönder"
-        android:layout_width="wrap_content"
+        android:layout_width="270dp"
         android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:textSize="20sp"
+        android:shadowColor="#A8A8A8"
+        android:textColor="#00FFBF"
+        android:background="@drawable/custom_button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="15dp"
-        android:id="@+id/button2"
-        android:textColorHint="#A9F5D0" />
+        android:layout_marginBottom="17dp" />
 
 </RelativeLayout>
